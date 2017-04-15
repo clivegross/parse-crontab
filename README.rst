@@ -7,6 +7,8 @@ which you'd like to be bound under).
 Description
 ===========
 
+Forked from the PyPI package parse-crontab by @josiahcarlson and modifed for use in an application without dependence on pip.
+
 This package intends to offer a method of parsing crontab schedule entries and
 determining when an item should next be run. More specifically, it calculates
 a delay in seconds from when the .next() method is called to when the item
